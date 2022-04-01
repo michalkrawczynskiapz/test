@@ -1,0 +1,20 @@
+.klasa{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: aqua;
+    color: blue;
+    text-decoration-color: blue;
+    align-content: center;
+}
+li {
+    text-align: center;
+    color: green;
+    text-decoration: underline;
+}
+#unikalneid {
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    background-color: yellow;
+}
