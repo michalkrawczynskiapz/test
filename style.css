@@ -1,20 +1,39 @@
-.klasa{
-    height: 100px;
-    width: 100px;
-    text-align: center;
-    background-color: aqua;
-    color: blue;
-    text-decoration-color: blue;
-    align-content: center;
+.klasa {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  background-color: aqua;
+  color: green;
+  text-decoration-color: blue;
+  align-content: center;
 }
+
 li {
-    text-align: center;
-    color: green;
-    text-decoration: underline;
+  text-align: center;
+  color: orange;
+  text-decoration: underline;
 }
+
 #unikalneid {
-    width: 400px;
-    height: 500px;
-    text-align: center;
-    background-color: yellow;
+  width: 400px;
+  height: 500px;
+  background-color: yellow;
 }
+#unikalneid .text-center {
+  text-align: center;
+}
+
+.parent {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  color: red;
+}
+.parent p {
+  color: blue;
+}
+.parent p + p {
+  color: green;
+}
+
+/*# sourceMappingURL=style.css.map */

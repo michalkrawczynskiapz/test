@@ -1,0 +1,46 @@
+$kolor1: green;
+$center: 'text-center';
+$lista1: red, yellow, blue, orange;
+$align:(
+  'l': left,
+  'c': center,
+  'r': right
+);
+@mixin a($kolor){
+  text-align: center;
+  color: $kolor;
+  text-decoration: underline;
+}
+
+.klasa{
+  height: 100px;
+  width: 100px;
+  text-align: map-get($align, c);
+  background-color: aqua;
+  color: $kolor1;
+  text-decoration-color: blue;
+  align-content: center;
+}
+li {
+  @include a(nth($lista1, 4));
+}
+#unikalneid {
+  width: 400px;
+  height: 500px;
+  .#{$center}{
+    text-align: center;
+  }
+  background-color: yellow;
+}
+.parent{
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  color: red;
+  p{
+    color: blue;
+  }
+  p + p{
+    color: green;
+  }
+}
