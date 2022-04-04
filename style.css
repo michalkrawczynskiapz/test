@@ -60,10 +60,11 @@ li {
   text-align: center;
   text-decoration: underline;
   color: black;
+  display: flex;
 }
 .naglowek .przycisk {
   box-sizing: border-box;
-  position: absolute;
+  padding: 2px;
   height: 50px;
   background-color: lightgreen;
   border: 2px solid;
@@ -94,6 +95,28 @@ li {
   text-align: center;
   text-decoration: underline;
   color: black;
+}
+
+.kontener {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.kontener div {
+  width: 300px;
+}
+.kontener .niebieski {
+  background: blue;
+  min-height: 200px;
+}
+.kontener .czerwony {
+  background: red;
+  min-height: 300px;
+}
+.kontener .zielony {
+  background: green;
+  min-height: 400px;
 }
 
 /*# sourceMappingURL=style.css.map */
