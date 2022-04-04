@@ -119,4 +119,22 @@ li {
   min-height: 400px;
 }
 
+.kontener1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 200px;
+}
+.kontener1 .niebieski {
+  background: blue;
+  min-height: 200px;
+}
+.kontener1 .czerwony {
+  background: red;
+  min-height: 300px;
+}
+.kontener1 .zielony {
+  background: green;
+  min-height: 400px;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -122,3 +122,22 @@ li {
     min-height: 400px;
   }
 }
+.kontener1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 200px;
+
+  .niebieski{
+    background: blue;
+    min-height: 200px;
+  }
+  .czerwony{
+    background: red;
+    min-height: 300px;
+  }
+  .zielony{
+    background: green;
+    min-height: 400px;
+  }
+
+}
